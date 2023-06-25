@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --nav-color:#0d0f36;
+    --btn-color:#69d2cd;
+    --bg-color:#b9f1d6;
+}
+
+hide {
+    display: none;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+.navbar, .navbar-expand-lg, .bg-body-tertiary
+{
+    background-color: var(--nav-color);
+    width: 100%;
+    padding: 1.2rem;
+    box-shadow: 0 2px 12px 4px rgb(68, 68, 68);
+}
+.navbar-brand
+{
+    color: var(--btn-color);
+}
+#button-nav
+{
+    position: relative;
+    border: #69d2cd 1px solid;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 1%;
+    right: 15px;
+}
+#button-nav:hover
+{
+    background-color: var(--bg-color);
+}
+
+#button2-nav
+{
+    position: relative;
+    border: #69d2cd 1px solid;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 1%;
+}
+#button2-nav:hover
+{
+    background-color: var(--bg-color);
+}
+
+#button3-nav
+{
+    position: relative;
+    border: #69d2cd 1px solid;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 1%;
+    left: 15px;
+}
+#button3-nav:hover
+{
+    background-color: var(--bg-color);
+}
+
+.collapse, .navbar-collapse{
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+}
+
+
+.photo-home
+{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 13px 4px #ff33ff ;
+}
+
+.photo-home
+{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 13px 4px #ff33ff ;
+}
+
+.photo-home2
+{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 85px;
+    width: 560px;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 13px 4px #ff33ff ;
+}
+
+section {
+    position: relative;
+    top: 100px;
+    left: 170px;
+    width: 1000px;
+    height: 500px;
+    background-color:#69d2cd;
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    background-color: var(--nav-color);
+    margin-top: 21%;
+}
+
+p {
+    color: var(--btn-color);
+    font-size: 20px;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 8%;
+}
+
+.level {
+    display: flex;
+    justify-content: center;
+}
+
+.listaNivel {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 18.5%;
+}
+
+li button {
+    margin-right: 15px;
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    background-color: #f1f6ce;
+    border: none;
+    border-radius: 9999px;
+    padding: 15px;
+    transition: 0.7s;
+}
+
+li button:hover {
+    background-color: #969981;
+}
